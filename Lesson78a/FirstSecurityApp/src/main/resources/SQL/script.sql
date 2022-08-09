@@ -8,3 +8,5 @@ CREATE TABLE Person(
 insert into Person (username, year_of_birth, password) values ('test_user1', 1960, '1234');
 insert into Person (username, year_of_birth, password) values ('test_user2', 1960, '1234');
 insert into Person (username, year_of_birth, password) values ('test_user3', 1960, '1234');
+
+select * from person person
